@@ -1,0 +1,45 @@
+.card {
+  width: 320px;
+  margin: 20px auto;
+  background: white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 20px;
+  border-radius: 12px;
+  font-family: Arial, sans-serif;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card-price {
+  font-size: 20px;
+  color: green;
+  margin: 10px 0;
+}
+
+.card-features {
+  list-style: none;
+  padding: 0;
+}
+
+.card-features li {
+  border-bottom: 1px solid #eee;
+  padding: 6px 0;
+}
+
+.card-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: blue;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+.card-btn:hover {
+  background: darkblue;
+}
